@@ -11,3 +11,33 @@ html {
         margin-left: -250px; /*half the image width*/
         margin-top: -250px; /*half the image height*/
 }
+
+.blackhole-pic img{
+    overflow: hidden;
+    transition-duration: 1.8s;
+    transition-property: transform;
+}
+.blackhole-pic:hover img{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+body { 
+  color: gray;  
+  text-shadow: 2px 2px 4px #000000;
+}
+
+footer {
+  background:RGBA(205, 208, 215,.2);
+  width:80px;
+  margin:2px auto;
+  text-align: center;
+  position:  bottom: 0;
+  margin-top: -20px;
+  height: 20px;
+}
+
+ a img { display:none; }
+ a:hover img { display:block; }
+
+end of blackhole

@@ -57,3 +57,22 @@ main section:last-of-type {
   text-align: center;
   position: relative;
 }
+
+
+h2 {
+  text-align: center;
+  font-family: 'Chalkduster';
+  font-weight: bold;
+}
+
+main article:first-of-type {
+
+  margin-bottom: 1.5%;
+  padding: 2% 30% 3%;
+  font-family: 'Chalkduster';
+  font-weight: bold;
+  color: ghostwhite;
+  font-size:250%;
+  text-align: center;
+  position: relative;
+}

@@ -26,7 +26,7 @@ html {
 
 
 body { 
-  color: gray;  
+  color: silver;  
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -39,5 +39,53 @@ footer {
   margin-top: -20px;
   height: 20px;
 }
+/*title*/
+h2 {
+  text-align: center;
+  font-family: 'Chalkduster';
+  font-weight: bold;
+}
+/*end title*/
+
+h3 {
+    text-align: center;
+    color: silver
+}
+
+/*header*/
+.head1 {
+    display: inline-block;
+}
+
+.head2 { 
+    display: inline-block;
+  position: absolute;
+  right: 0px;
+}
+
+.head2 a, .head1 a {
+    color:gray;
+    text-decoration: none;
+} 
+
+ul {
+  list-style-type: none;
+}
+
+/*end header*/
 
 
+article {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  border-style: solid;
+  border-color: beige;
+  border-radius: 9%;
+  margin: 4%;
+  text-align: center;
+  color: ghostwhite;
+  text-shadow: black;
+  background-color: rgba(250,235,215,.2);   
+  
+}

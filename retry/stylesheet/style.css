@@ -22,6 +22,9 @@ html {
     -webkit-transform: rotate(360deg);
 }
 
+/*end of blackhole*/
+
+
 body { 
   color: gray;  
   text-shadow: 2px 2px 4px #000000;
@@ -37,7 +40,4 @@ footer {
   height: 20px;
 }
 
- a img { display:none; }
- a:hover img { display:block; }
 
-end of blackhole

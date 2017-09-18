@@ -89,3 +89,27 @@ article {
   background-color: rgba(250,235,215,.2);   
   
 }
+
+
+
+
+/*meowspace portfolio*/
+#meow {
+  display: inline-block;
+  width: 30%;
+  margin: 4%;
+    color: ghostwhite;
+}
+
+#meow h4 {
+  font-size: 2.5rem;
+    color: whitesmoke;
+    font-family: 'Chalkduster';
+}
+
+main section:nth-of-type(1) img{
+  display: inline-block;
+  width: 50%;
+  vertical-align: bottom;
+    
+}
